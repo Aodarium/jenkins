@@ -17,7 +17,8 @@ pipeline {
 
    post{
        always {
-           echo currentBuild.result
+           echo currentBuild.currentResult
     }
   }
+  
 }
